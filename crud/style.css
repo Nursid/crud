@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 8px;
+    /* background-color: antiquewhite; */
+}
+header h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+header{
+    background-color: aqua;
+    padding: 20px;
+}
+nav{
+    overflow: hidden;
+    background-color:black;
+}
+nav a{
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+}
+table,th,td{
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 7px;
+    text-align: center;
+}
+th,td{
+    border-color:rgb(135, 135, 135);
+}
+th{
+    background-color: rgb(28, 28, 29);
+    color: white;
+}
+.center{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.conatainer{
+    border: solid 2px black;
+    width: 600px;
+    height: 250px;
+    margin: 113px 106px 104px 302px;
+}
+.item  input[type="text"],input[type="number"]{
+    width: 96%;
+    padding: 3px;
+    margin: 4px;
+
+}
+.item{
+   padding: 5px; 
+   font-weight: bold;
+}
+.submit{
+    margin: 10px;
+     background-color: aqua;
+     border-radius: 30px;
+     float: right;
+}
+.btn{
+    float: none;
+    background-color: red;
+   
+}
+.sm{
+    background-color: green;
+}
+.item-sm {
+        margin: 35px;
+        font-size: 20px;
+    }
+
+.form-sm input[type="number"]{
+  width: 60%;
+ float: right;
+}
+.form-sm{
+    height: 175px;
+}
